@@ -1,0 +1,441 @@
+{
+  "template": "gtd",
+  "mappings": {
+    "event": {
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        },
+        "date": {
+          "type": "date",
+          "format": "yyyy-M-d"
+        },
+        "@version": {
+          "type": "integer"
+        },
+        "iyear": {
+          "type": "integer"
+        },
+        "imonth": {
+          "type": "integer"
+        },
+        "iday": {
+          "type": "integer"
+        },
+        "country": {
+          "type": "integer"
+        },
+        "region": {
+          "type": "integer"
+        },
+        "specificity": {
+          "type": "integer"
+        },
+        "alternative": {
+          "type": "integer"
+        },
+        "attacktype1": {
+          "type": "integer"
+        },
+        "attacktype2": {
+          "type": "integer"
+        },
+        "attacktype3": {
+          "type": "integer"
+        },
+        "targtype1": {
+          "type": "integer"
+        },
+        "targsubtype1": {
+          "type": "integer"
+        },
+        "targtype2": {
+          "type": "integer"
+        },
+        "targsubtype2": {
+          "type": "integer"
+        },
+        "natlty2": {
+          "type": "integer"
+        },
+        "targtype3": {
+          "type": "integer"
+        },
+        "targsubtype3": {
+          "type": "integer"
+        },
+        "natlty3": {
+          "type": "keyword"
+        },
+        "nperps": {
+          "type": "integer"
+        },
+        "nperpcap": {
+          "type": "integer"
+        },
+        "claimmode": {
+          "type": "integer"
+        },
+        "claimmode2": {
+          "type": "keyword"
+        },
+        "claimmode3": {
+          "type": "integer"
+        },
+        "weaptype1": {
+          "type": "integer"
+        },
+        "weaptype2": {
+          "type": "integer"
+        },
+        "weaptype3": {
+          "type": "integer"
+        },
+        "weaptype4": {
+          "type": "integer"
+        },
+
+        "weapsubtype1": {
+          "type": "integer"
+        },
+        "weapsubtype2": {
+          "type": "integer"
+        },
+        "weapsubtype3": {
+          "type": "integer"
+        },
+        "weapsubtype4": {
+          "type": "integer"
+        },
+        "nkill": {
+          "type": "integer"
+        },
+        "nkillus": {
+          "type": "integer"
+        },
+        "nkillter": {
+          "type": "integer"
+        },
+        "nwound": {
+          "type": "integer"
+        },
+        "nwoundus": {
+          "type": "integer"
+        },
+        "nwoundte": {
+          "type": "integer"
+        },
+        "nhostkid": {
+          "type": "integer"
+        },
+        "nhostkidus": {
+          "type": "integer"
+        },
+        "nhours": {
+          "type": "double"
+        },
+        "ndays": {
+          "type": "integer"
+        },
+        "nreleased": {
+          "type": "integer"
+        },
+
+        "country_txt": {
+          "type": "keyword"
+        },
+        "region_txt": {
+          "type": "keyword"
+        },
+        "provstate": {
+          "type": "keyword"
+        },
+        "city": {
+          "type": "keyword"
+        },
+        "location2": {
+          "type": "keyword"
+        },
+        "alternative_txt": {
+          "type": "keyword"
+        },
+        "attacktype1_txt": {
+          "type": "keyword"
+        },
+        "attacktype2_txt": {
+          "type": "keyword"
+        },
+        "attacktype3_txt": {
+          "type": "keyword"
+        },
+        "targsubtype1_txt": {
+          "type": "keyword"
+        },
+        "targtype1_txt": {
+          "type": "keyword"
+        },
+        "corp1": {
+          "type": "keyword"
+        },
+        "target1": {
+          "type": "keyword"
+        },
+        "natlty1": {
+          "type": "keyword"
+        },
+        "natlty1_txt": {
+          "type": "keyword"
+        },
+        "targtype2_txt": {
+          "type": "keyword"
+        },
+        "targsubtype2_txt": {
+          "type": "keyword"
+        },
+        "corp2": {
+          "type": "keyword"
+        },
+        "target2": {
+          "type": "keyword"
+        },
+        "natlty2_txt": {
+          "type": "keyword"
+        },
+        "targtype3_txt": {
+          "type": "keyword"
+        },
+        "targsubtype3_txt": {
+          "type": "keyword"
+        },
+        "corp3": {
+          "type": "keyword"
+        },
+        "target3": {
+          "type": "keyword"
+        },
+        "natlty3_txt": {
+          "type": "keyword"
+        },
+        "gname": {
+          "type": "keyword"
+        },
+        "gsubname": {
+          "type": "keyword"
+        },
+        "gname2": {
+          "type": "keyword"
+        },
+        "gsubname2": {
+          "type": "keyword"
+        },
+        "gname3": {
+          "type": "keyword"
+        },
+        "gsubname3": {
+          "type": "keyword"
+        },
+        "motive": {
+          "type": "keyword"
+        },
+        "claimmode_txt": {
+          "type": "keyword"
+        },
+        "claimmode2_txt": {
+          "type": "keyword"
+        },
+        "claimmode3_txt": {
+          "type": "keyword"
+        },
+        "weaptype1_txt": {
+          "type": "keyword"
+        },
+        "weaptype2_txt": {
+          "type": "keyword"
+        },
+        "weaptype3_txt": {
+          "type": "keyword"
+        },
+        "weaptype4_txt": {
+          "type": "keyword"
+        },
+        "weapsubtype1_txt": {
+          "type": "keyword"
+        },
+        "weapsubtype2_txt": {
+          "type": "keyword"
+        },
+        "weapsubtype3_txt": {
+          "type": "keyword"
+        },
+        "weapsubtype4_txt": {
+          "type": "keyword"
+        },
+
+        "property": {
+          "type": "keyword"
+        },
+        "propextent": {
+          "type": "keyword"
+        },
+        "propextent_txt": {
+          "type": "keyword"
+        },
+        "divert": {
+          "type": "keyword"
+        },
+        "kidhijcountry": {
+          "type": "keyword"
+        },
+        "ransom": {
+          "type": "keyword"
+        },
+        "ransomamt": {
+          "type": "keyword"
+        },
+        "ransomamtus": {
+          "type": "keyword"
+        },
+        "ransompaid": {
+          "type": "keyword"
+        },
+        "ransompaidus": {
+          "type": "keyword"
+        },
+        "hostkidoutcome": {
+          "type": "keyword"
+        },
+        "hostkidoutcome_txt": {
+          "type": "keyword"
+        },
+        "dbsource": {
+          "type": "keyword"
+        },
+        "INT_LOG": {
+          "type": "keyword"
+        },
+        "INT_IDEO": {
+          "type": "keyword"
+        },
+        "INT_MISC": {
+          "type": "keyword"
+        },
+        "INT_ANY": {
+          "type": "keyword"
+        },
+
+        "extended": {
+          "type": "boolean"
+        },
+        "resolution": {
+          "type": "boolean"
+        },
+        "vicinity": {
+          "type": "boolean"
+        },
+        "crit1": {
+          "type": "boolean"
+        },
+        "crit2": {
+          "type": "boolean"
+        },
+        "crit3": {
+          "type": "boolean"
+        },
+        "doubtterr": {
+          "type": "boolean"
+        },
+        "multiple": {
+          "type": "boolean"
+        },
+        "success": {
+          "type": "boolean"
+        },
+        "suicide": {
+          "type": "boolean"
+        },
+        "guncertain1": {
+          "type": "boolean"
+        },
+        "guncertain2": {
+          "type": "boolean"
+        },
+        "guncertain3": {
+          "type": "boolean"
+        },
+        "individual": {
+          "type": "boolean"
+        },
+        "claimed": {
+          "type": "boolean"
+        },
+        "claim2": {
+          "type": "boolean"
+        },
+        "claim3": {
+          "type": "boolean"
+        },
+        "compclaim": {
+          "type": "boolean"
+        },
+        "ishostkid": {
+          "type": "boolean"
+        },
+
+
+        "eventid": {
+          "type": "text"
+        },
+        "approxdate": {
+          "type": "text"
+        },
+        "summary": {
+          "type": "text"
+        },
+        "weapdetail": {
+          "type": "text"
+        },
+        "propvalue": {
+          "type": "text"
+        },
+        "propcomment": {
+          "type": "text"
+        },
+        "ransomnote": {
+          "type": "text"
+        },
+        "addnotes": {
+          "type": "text"
+        },
+        "scite1": {
+          "type": "text"
+        },
+        "scite2": {
+          "type": "text"
+        },
+        "scite3": {
+          "type": "text"
+        },
+        "related": {
+          "type": "text"
+        },
+
+        "latitude": {
+          "type": "double"
+        },
+        "longitude": {
+          "type": "double"
+        },
+        "location": {
+          "type": "geo_point"
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
