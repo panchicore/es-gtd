@@ -2,3 +2,4 @@
 *.iml
 *.pyc
 enviroment_variables.sh
+data/*.csv
